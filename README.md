@@ -16,7 +16,6 @@ Analisi esplorativa di dati di vendita con Python. Progetto dimostrativo di comp
 ├── visualizations/ # Grafici e output visivi
 └── README.md # Documentazione progetto
 
-text
 
 ## Come eseguire
 
@@ -25,13 +24,13 @@ text
 
 pip install pandas numpy matplotlib seaborn
 
-text
+
 
 3. Esegui lo script di analisi:
 
 python scripts/analysis.py
 
-text
+
 
 ## Risultati
 
