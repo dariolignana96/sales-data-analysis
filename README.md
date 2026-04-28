@@ -16,29 +16,24 @@ testing analysis workflows without relying on sensitive or proprietary data.
 
 ## Structure
 
-├── data/             # Generated CSV output
-├── notebooks/        # Jupyter Notebook for interactive exploration
-├── scripts/          # Production scripts (ETL + visualization)
-├── visualizations/   # Chart output (.png/.jpg)
-└── README.md
-
+    data/             # Generated CSV output
+    notebooks/        # Jupyter Notebook for interactive exploration
+    scripts/          # Production scripts (ETL + visualization)
+    visualizations/   # Chart output (.png/.jpg)
+    README.md
 
 ## Setup
 
-```bash
-git clone https://github.com/dariolignana96/sales-data-analysis.git
-cd sales-data-analysis
-pip install pandas numpy matplotlib seaborn
-```
+    git clone https://github.com/dariolignana96/sales-data-analysis.git
+    cd sales-data-analysis
+    pip install pandas numpy matplotlib seaborn
 
 ## Usage
 
-```bash
-python scripts/analysis.py
-```
+    python scripts/analysis.py
 
-Generates `data/sales_data.csv` and saves charts to `visualizations/`.
+Generates data/sales_data.csv and saves charts to visualizations/.
 
 ## License
 
-MIT — see [LICENSE](LICENSE) for details.
+MIT — see LICENSE for details.
